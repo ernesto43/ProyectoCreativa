@@ -3,11 +3,11 @@ package com.creativa.archivos.beans;
 public class ProyectoFinal {
 	String nombreProducto;
 	String precioProducto;
-	double cantidadProducto;
+	String cantidadProducto;
 	
 	public ProyectoFinal(){}
 	
-	public ProyectoFinal(String nombreProducto, String precioProducto, double cantidadProducto){
+	public ProyectoFinal(String nombreProducto, String precioProducto, String cantidadProducto){
 		super();
 		this.nombreProducto = nombreProducto;
 		this.precioProducto = precioProducto;
@@ -30,11 +30,11 @@ public class ProyectoFinal {
 		this.precioProducto = precioProducto;
 	}
 
-	public double getCantidadProducto() {
+	public String getCantidadProducto() {
 		return cantidadProducto;
 	}
 
-	public void setCantidadProducto(double cantidadProducto) {
+	public void setCantidadProducto(String cantidadProducto) {
 		this.cantidadProducto = cantidadProducto;
 	}
 	
